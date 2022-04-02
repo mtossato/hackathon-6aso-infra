@@ -1,9 +1,9 @@
-resource "google_app_engine_application" "app_hackathon" {
+resource "google_app_engine_application" "app_hackathong7" {
   project     = "hackathon-6aso-grupo-07"
   location_id = "us-central"
 }
 
-resource "google_artifact_registry_repository" "my-repo" {
+resource "google_artifact_registry_repository" "my-repog7" {
   provider = google-beta
 
   location = "us-central1"
