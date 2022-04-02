@@ -1,4 +1,4 @@
-resource "google_app_engine_application" "app" {
+resource "google_app_engine_application" "app_hackathon" {
   project     = "hackathon-6aso-grupo-07"
   location_id = "us-central"
 }
