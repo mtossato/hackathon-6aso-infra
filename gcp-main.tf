@@ -1,5 +1,5 @@
 resource "google_cloud_run_service" "default" {
-  name     = "cloudGrupo7"
+  name     = "cloud-grupo-7"
   location = "us-central1"
 
   template {
