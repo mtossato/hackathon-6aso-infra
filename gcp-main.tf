@@ -45,6 +45,6 @@ resource "google_sql_database"  "database" {
 resource "google_sql_user" "users" {
   name = "root"
   instance = "${google_sql_database_instance.master.name}"
-  host = "34.82.176.115"
+  host = "%"
   password = "Fiap@2022"
 }
