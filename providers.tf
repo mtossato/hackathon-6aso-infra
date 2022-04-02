@@ -11,13 +11,13 @@ terraform {
 provider "google" {
 
   project = "hackathon-6aso-grupo-07"
-  region  = "us-west1"
-  zone    = "us-west1-b"
+  region  = "us-central1"
+  zone    = "us-central1-b"
 }
 
 provider "google-beta" { 
   project = "hackathon-6aso-grupo-07"
-  region  = "us-west1"
-  zone    = "us-west1-b"
+  region  = "us-central1"
+  zone    = "us-central1-b"
 }
 
