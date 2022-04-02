@@ -29,7 +29,7 @@ resource "google_artifact_registry_repository" "my-repo" {
 resource "google_sql_database_instance" "master" {
   name = "g7-6asoo"
   database_version = "MYSQL_5_7"
-  region = "${var.region}"
+  region = "us-central1"
   settings {
     tier = "db-n1-standard-2"
   }
