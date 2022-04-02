@@ -1,11 +1,3 @@
-#cat main.tf
-variable "project" {}
-variable "region" {}
-provider "google" {
-  project = "${var.project}"
-  region = "${var.region}"
-}
-
 resource "google_cloud_run_service" "default" {
   name     = "cloud-grupo-7"
   location = "us-central1"
