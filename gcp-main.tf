@@ -34,7 +34,7 @@ resource "google_artifact_registry_repository" "my-repo" {
 }
 
 
-resource “google_sql_database_instance” “master” {
+resource "google_sql_database_instance" "master" {
   name = "g7-6asoo"
   database_version = "MYSQL_5_7"
   region = "${var.region}"
@@ -43,7 +43,7 @@ resource “google_sql_database_instance” “master” {
   }
 }
 
-resource "google_sql_database" “database” {
+resource "google_sql_database"  "database" {
   name = "playlist"
   instance = "${google_sql_database_instance.master.name}"
   charset = "utf8"
