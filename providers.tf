@@ -5,7 +5,7 @@ terraform {
       version = "4.14.0"
     }
   }  
-} 
+}  
 
 # Configura o Provider Google Cloud com o Projeto
 provider "google" {
